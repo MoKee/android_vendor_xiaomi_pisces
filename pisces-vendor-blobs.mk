@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pisces/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/xiaomi/pisces/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/xiaomi/pisces/proprietary/lib/hw/sensors.pisces.so:system/lib/hw/sensors.pisces.so \
+    vendor/xiaomi/pisces/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/xiaomi/pisces/proprietary/lib/modules/baseband_usb_chr.ko:system/lib/modules/baseband_usb_chr.ko \
     vendor/xiaomi/pisces/proprietary/lib/modules/raw_ip_net.ko:system/lib/modules/raw_ip_net.ko \
     vendor/xiaomi/pisces/proprietary/lib/modules/sd8797mlan.ko:system/lib/modules/sd8797mlan.ko \
@@ -48,6 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pisces/proprietary/lib/modules/mbt8797.ko:system/lib/modules/mbt8797.ko \
     vendor/xiaomi/pisces/proprietary/lib/modules/sd8797.ko:system/lib/modules/sd8797.ko \
     vendor/xiaomi/pisces/proprietary/lib/modules/wl12xx.ko:system/lib/modules/wl12xx.ko \
+    vendor/xiaomi/pisces/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
+    vendor/xiaomi/pisces/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
     vendor/xiaomi/pisces/proprietary/etc/libnfc-brcm-43341b00.conf:system/etc/libnfc-brcm-43341b00.conf \
     vendor/xiaomi/pisces/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/xiaomi/pisces/proprietary/etc/mcrash_trigger.config:system/etc/mcrash_trigger.config \
@@ -156,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pisces/proprietary/bin/load_audience_fw.sh:system/bin/load_audience_fw.sh \
     vendor/xiaomi/pisces/proprietary/bin/atmel_fw_update.sh:system/bin/atmel_fw_update.sh \
     vendor/xiaomi/pisces/proprietary/bin/mount_debugfs.sh:system/bin/mount_debugfs.sh \
-    vendor/xiaomi/pisces/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh \
     vendor/xiaomi/pisces/proprietary/bin/nvcap_test:system/bin/nvcap_test \
     vendor/xiaomi/pisces/proprietary/bin/nvcgcserver:system/bin/nvcgcserver \
     vendor/xiaomi/pisces/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
